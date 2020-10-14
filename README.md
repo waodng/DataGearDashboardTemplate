@@ -21,7 +21,7 @@
 
 项目地址：[https://gitee.com/datagear/datagear](https://gitee.com/datagear/datagear)
 
-# 模板截图
+# 模板效果图
 
 template-001
 
