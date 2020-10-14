@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+body{
+	background:#000d4a url(images/bg.jpg) center top;
+	background-size:cover;
+	color:#fff;
+	position: absolute;
+	margin: 0 0;
+	padding: 0 0;
+}
+.fill-parent{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.head{
+    background: url(images/bg_head.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: relative;
+    height: 4rem;
+}
+.head .title{
+	font-size: 1.8rem;
+	text-align: center;
+}
+.content{
+	position: absolute;
+	top: 4.5rem;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.layout{
+	position: absolute;
+	width: 33.33%;
+}
+.layout-left-top{
+	left: 0;
+	top: 0;
+	height: 33.33%;
+}
+.layout-left-center{
+	left: 0;
+	top: 33.33%;
+	height: 33.33%;
+}
+.layout-left-bottom{
+	left: 0;
+	top: 66.66%;
+	height: 33.33%;
+}
+.layout-center-top{
+	top: 0;
+	left: 33.33%;
+	right: 66.6%;
+	height: 25%;
+}
+.layout-center-bottom{
+	top: 25%;
+	left:33.33%;
+	right: 66.6%;
+	bottom: 0;
+}
+.layout-right-top{
+	top: 0;
+	right: 0;
+	height: 50%;
+}
+.layout-right-bottom{
+	top: 50%;
+	right: 0;
+	bottom: 0;
+}
+.panel{
+	position: absolute;
+	left: 0.5rem;
+	top: 0.5rem;
+	right: 0.5rem;
+	bottom: 0.5em;
+	border: 1px solid rgba(25,186,139,.17);
+}
+.panel.border-left-top:before,
+.panel.border-all:before{
+	position: absolute;
+    width: 0.3rem;
+    height: 0.3rem;
+    content: "";
+    border-top: 2px solid #02a6b5;
+    border-left: 2px solid #02a6b5;
+    left: 0;
+    top: 0;
+}
+.panel.border-right-top:after,
+.panel.border-all:after{
+	position: absolute;
+    width: 0.3rem;
+    height: 0.3rem;
+    content: "";
+    border-top: 2px solid #02a6b5;
+    border-right: 2px solid #02a6b5;
+    right: 0;
+    top: 0;
+}
+.panel.border-left-bottom .border-foot:before,
+.panel.border-all .border-foot:before{
+	position: absolute;
+    width: 0.3rem;
+    height: 0.3rem;
+    content: "";
+    border-bottom: 2px solid #02a6b5;
+    border-left: 2px solid #02a6b5;
+    left: 0;
+    bottom: 0;
+}
+.panel.border-right-bottom .border-foot:after,
+.panel.border-all .border-foot:after{
+	position: absolute;
+    width: 0.3rem;
+    height: 0.3rem;
+    content: "";
+    border-bottom: 2px solid #02a6b5;
+    border-right: 2px solid #02a6b5;
+    right: 0;
+    bottom: 0;
+}
+.panel > .title{
+	position: absolute;
+	top: 0.2rem;
+	right: 0.3rem;
+	left: 0.3rem;
+	height: 1.8rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+}
+.panel .chart{
+	position: absolute;
+	top: 2.4rem;
+	right: 0.3rem;
+	bottom: 0.3rem;
+	left: 0.3rem;
+}
+.layout-center-top .chart-left{
+	position: absolute;
+	right: 52%;
+	text-align: center;
+}
+.layout-center-top .chart-right{
+	position: absolute;
+	left: 52%;
+	text-align: center;
+}
