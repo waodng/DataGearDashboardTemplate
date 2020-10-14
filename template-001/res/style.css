@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+body{
+	margin: 0 0;
+	padding: 0 0;
+}
+.fill-parent{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.head{
+    position: relative;
+    height: 2.4rem;
+}
+.head .title{
+	font-size: 1.8rem;
+	text-align: center;
+}
+.content{
+	position: absolute;
+	top: 2.5rem;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.layout{
+	position: absolute;
+}
+.layout-top{
+	top: 0;
+	width: 33.33%;
+	height: 15%;
+}
+.layout-top-left{
+	left: 0;
+}
+.layout-top-center{
+	left: 33.33%;
+}
+.layout-top-right{
+	left: 66.66%;
+}
+.layout-center{
+	top: 15%;
+	width: 33.33%;
+	height: 45%;
+}
+.layout-center-left{
+	left: 0;
+}
+.layout-center-center{
+	left: 33.33%;
+}
+.layout-center-right{
+	left: 66.66%;
+}
+.layout-bottom{
+	top: 60%;
+	bottom: 0;
+	width: 50%;
+}
+.layout-bottom-left{
+	left: 0;
+}
+.layout-bottom-right{
+	left: 50%;
+}
+.panel{
+	position: absolute;
+	left: 0.5rem;
+	top: 0.5rem;
+	right: 0.5rem;
+	bottom: 0.5em;
+}
+.layout-top .panel{
+	color: white !important;
+    border-radius: 6px;
+    text-align: center;
+}
+.layout-top-left .panel{
+	background: #f55050;
+}
+.layout-top-center .panel{
+	background: #36a736;
+}
+.layout-top-right .panel{
+	background: #48a7f3;
+}
+.panel .chart{
+	position: absolute;
+	top: 0.3rem;
+	right: 0.3rem;
+	bottom: 0.3rem;
+	left: 0.3rem;
+}
