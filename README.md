@@ -27,6 +27,10 @@ template-001
 
 ![screenshot/template-001.png](screenshot/template-001.png)
 
+![screenshot/template-001-dg.png](screenshot/template-001-dg.png)
+
 template-002
 
 ![screenshot/template-002.png](screenshot/template-002.png)
+
+![screenshot/template-002-dg.png](screenshot/template-002-dg.png)
