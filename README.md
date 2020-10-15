@@ -1,16 +1,20 @@
 # DataGear看板模板
 
-此项目包含静态HTML模板，可作为看板模板导入至[DataGear](http://www.datagear.tech)数据可视化分析平台，制作数据可视化看板。
+静态HTML模板，可作为看板模板导入[DataGear](http://www.datagear.tech)数据可视化分析平台，制作数据可视化看板，大屏展示。
 
 持续更新中...
 
-# 导入模板步骤
+# 导入模板
 
-1. 进入此项目其中一个模板目录，比如`template-001`
+1. 进入此项目其中一个模板目录`template-*/`
 
 2. 将目录内的所有文件打包成`ZIP`压缩包（注意：所有文件都应直接在压缩包根目录内，不要多嵌套一层）
 
-3. 在[DataGear](http://www.datagear.tech)的看板管理页面，点击【导入】按钮，导入上述压缩包即可
+3. 在[DataGear](http://www.datagear.tech)程序的看板管理页面，点击【导入】按钮，导入上述压缩包
+
+4. 编辑导入的看板模板，为HTML中`div`元素的`dg-chart-widget`属性设置图表ID
+
+5. 数据可视化看板制作完成
 
 # DataGear
 
