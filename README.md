@@ -1,6 +1,6 @@
-# DataGear看板模板
+# DataGear大屏看板模板
 
-静态HTML模板，可作为看板模板导入[DataGear](http://www.datagear.tech)数据可视化分析平台，制作数据可视化看板，大屏展示。
+静态大屏HTML模板，可作为看板模板导入[DataGear](http://www.datagear.tech)数据可视化分析平台，制作大屏展示数据可视化看板。
 
 持续更新中...
 
@@ -25,6 +25,10 @@
 
 项目地址：[https://gitee.com/datagear/datagear](https://gitee.com/datagear/datagear)
 
+# 模板参考项目
+
+[Lang/大屏数据展示模板](https://gitee.com/lvyeyou/DaShuJuZhiDaPingZhanShi)
+
 # 模板效果图
 
 template-001
@@ -38,3 +42,7 @@ template-002
 ![screenshot/template-002.png](screenshot/template-002.png)
 
 ![screenshot/template-002-dg.png](screenshot/template-002-dg.png)
+
+template-003
+
+![screenshot/template-003.png](screenshot/template-003.png)

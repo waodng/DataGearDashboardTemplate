@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+body{
+	color: #FFF;
+    background: #000c3b;
+    margin: 0 0;
+    padding: 0 0;
+}
+.fill-parent{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.head{
+    height: 4rem;
+}
+.head .title{
+	font-size: 1.8rem;
+	text-align: center;
+	padding-top: 0.2em;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.head .title .title-left{
+	background: url(images/title-left.png) no-repeat center center;
+	display: inline-block;
+    width: 312px;
+    height: 48px;
+}
+.head .title .title-value{
+	display: inline-block;
+    line-height: 48px;
+    vertical-align: top;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.head .title .title-right{
+	background: url(images/title-right.png) no-repeat center center;
+	display: inline-block;
+    width: 312px;
+    height: 48px;
+}
+.content{
+	position: absolute;
+	top: 4.5rem;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.layout{
+	position: absolute;
+	width: 33.33%;
+}
+.layout-left-top{
+	left: 0;
+	top: 0;
+	height: 33.33%;
+}
+.layout-left-center{
+	left: 0;
+	top: 33.33%;
+	height: 33.33%;
+}
+.layout-left-bottom{
+	left: 0;
+	top: 66.66%;
+	height: 33.33%;
+}
+.layout-center-top{
+	top: 0;
+	left: 33.33%;
+	right: 66.6%;
+	height: 35%;
+}
+.layout-center-bottom{
+	top: 35%;
+	left:33.33%;
+	right: 66.6%;
+	bottom: 0;
+}
+.layout-right-top{
+	top: 0;
+	right: 0;
+	height: 50%;
+}
+.layout-right-bottom{
+	top: 50%;
+	right: 0;
+	bottom: 0;
+}
+.panel{
+	position: absolute;
+	left: 0.5rem;
+	top: 1rem;
+	right: 0.5rem;
+	bottom: 1em;
+	border: 2px solid #032d60;
+    -webkit-box-shadow: #07417a 0 0 10px;
+    -moz-box-shadow: #07417a 0 0 10px;
+    box-shadow: inset 0 0 30px #07417a;
+}
+.panel.border-left-top:before,
+.panel.border-all:before{
+	position: absolute;
+    width: 1rem;
+    height: 1rem;
+    content: "";
+    border-top: 2px solid #26c6f0;
+    border-left: 2px solid #26c6f0;
+    left: -1px;
+    top: -1px;
+}
+.panel.border-right-top:after,
+.panel.border-all:after{
+	position: absolute;
+    width: 1rem;
+    height: 1rem;
+    content: "";
+    border-top: 2px solid #26c6f0;
+    border-right: 2px solid #26c6f0;
+    right: -1px;
+    top: -1px;
+}
+.panel.border-left-bottom .border-foot:before,
+.panel.border-all .border-foot:before{
+	position: absolute;
+    width: 1rem;
+    height: 1rem;
+    content: "";
+    border-bottom: 2px solid #26c6f0;
+    border-left: 2px solid #26c6f0;
+    left: -1px;
+    bottom: -1px;
+}
+.panel.border-right-bottom .border-foot:after,
+.panel.border-all .border-foot:after{
+	position: absolute;
+    width: 1rem;
+    height: 1rem;
+    content: "";
+    border-bottom: 2px solid #26c6f0;
+    border-right: 2px solid #26c6f0;
+    right: -1px;
+    bottom: -1px;
+}
+.panel > .title{
+	position: absolute;
+	top: -0.8rem;
+	right: 20%;
+	left: 20%;
+	line-height: 1.4rem;
+	font-size: 1.2rem;
+    text-align: center;
+    background-color: #000c3b;
+    color: #83c7e3;
+}
+.panel > .title::before{
+	content: "[";
+	color: #105eda;
+	font-weight: bold;
+	position: absolute;
+	left: 0;
+}
+.panel > .title::after{
+	content: "]";
+	color: #105eda;
+	font-weight: bold;
+	position: absolute;
+	right: 0;
+}
+.panel .chart{
+	position: absolute;
+	top: 2.4rem;
+	right: 0.3rem;
+	bottom: 0.3rem;
+	left: 0.3rem;
+}
+.layout-center-bottom .panel{
+	background-image: -webkit-radial-gradient(250px 250px at 50% 50%,hsla(209,99%,32%,28),hsla(228,100%,0%,0));
+    background-image: radial-gradient(250px 250px at 50% 50%,hsla(209,99%,32%,28),hsla(228,100%,0%,0));
+}
