@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+body{
+	color: #FFF;
+    background: url(images/bg.png);
+    margin: 0 0;
+    padding: 0 0;
+}
+.fill-parent{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.head{
+    height: 4rem;
+    background: url(images/t_header.png);
+    background-size: 100% 100%;
+}
+.head .title{
+	font-size: 1.8rem;
+	text-align: center;
+	padding-top: 0.2em;
+}
+.content{
+	position: absolute;
+	top: 4.5rem;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.layout{
+	position: absolute;
+	width: 33.33%;
+}
+.layout-left-top{
+	left: 0;
+	top: 0;
+	height: 33.33%;
+}
+.layout-left-center{
+	left: 0;
+	top: 33.33%;
+	height: 33.33%;
+}
+.layout-left-bottom{
+	left: 0;
+	top: 66.66%;
+	height: 33.33%;
+}
+.layout-center-top{
+	top: 0;
+	left: 33.33%;
+	right: 66.6%;
+	height: 66.6%;
+}
+.layout-center-bottom{
+	top: 66.6%;
+	left:33.33%;
+	right: 66.6%;
+	bottom: 0;
+}
+.layout-right-top{
+	top: 0;
+	right: 0;
+	height: 33.3%;
+}
+.layout-right-center{
+	top: 33.3%;
+	right: 0;
+	height: 33.3%;
+}
+.layout-right-bottom{
+	top: 66.6%;
+	right: 0;
+	bottom: 0;
+}
+.panel{
+	position: absolute;
+	left: 0.3rem;
+	top: 0.3rem;
+	right: 0.3rem;
+	bottom: 0.3em;
+    background: url(images/t_bg.png);
+    background-size: 100% 100%;
+}
+.panel.border-left-top:before,
+.panel.border-all:before{
+	/*
+	position: absolute;
+    width: 1rem;
+    height: 1rem;
+    content: "";
+    border-top: 6px solid #4788fb;
+    border-left: 6px solid #4788fb;
+    left: -3px;
+    top: -3px;
+    */
+}
+.panel.border-right-top:after,
+.panel.border-all:after{
+	/*
+	position: absolute;
+    width: 1rem;
+    height: 1rem;
+    content: "";
+    border-top: 6px solid #4788fb;
+    border-right: 6px solid #4788fb;
+    right: -3px;
+    top: -3px;
+    */
+}
+.panel.border-left-bottom .border-foot:before,
+.panel.border-all .border-foot:before{
+	/*
+	position: absolute;
+    width: 1rem;
+    height: 1rem;
+    content: "";
+    border-bottom: 6px solid #4788fb;
+    border-left: 6px solid #4788fb;
+    left: -3px;
+    bottom: -3px;
+    */
+}
+.panel.border-right-bottom .border-foot:after,
+.panel.border-all .border-foot:after{
+	/*
+	position: absolute;
+    width: 1rem;
+    height: 1rem;
+    content: "";
+    border-bottom: 6px solid #4788fb;
+    border-right: 6px solid #4788fb;
+    right: -3px;
+    bottom: -3px;
+    */
+}
+.panel > .title{
+	position: absolute;
+	top: 0.2rem;
+	right: 20%;
+	left: 20%;
+	line-height: 1.2rem;
+	font-size: 1rem;
+    text-align: center;
+    color: #fff;
+}
+.panel .chart{
+	position: absolute;
+	top: 1.4rem;
+	right: 0.3rem;
+	bottom: 0.3rem;
+	left: 0.3rem;
+}
