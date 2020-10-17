@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="res/style.css">
+<title>DataGear 看板模板</title>
+<!-- 模板样例CSS，导入后可删除 -->
+<style type="text/css">
+body::after{
+	content: "DataGear（http://datagear.tech）";
+	position: absolute;
+	left: 0.1rem;
+	top: 0.1rem;
+}
+.chart::after{
+	content: "图表";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -1rem;
+	margin-left: -1rem;
+	opacity: 0.8;
+}
+</style>
+</head>
+<body class="fill-parent"
+	dg-chart-options="{title:{show:false},legend:{top:0},grid:{top:25}}"
+	dg-chart-auto-resize="true"
+	dg-chart-theme="{color:'#F0F0F0',backgroundColor:'transparent',actualBackgroundColor:'#072e7d'}">
+<div class="head">
+	<div class="title">标题</div>
+</div>
+<div class="content">
+	<div class="layout layout-left-top">
+		<div class="panel">
+			<div class="title">标题</div>
+			<div class="chart" dg-chart-widget=""></div>
+		</div>
+	</div>
+	<div class="layout layout-left-center">
+		<div class="panel">
+			<div class="title">标题</div>
+			<div class="chart" dg-chart-widget=""></div>
+		</div>
+	</div>
+	<div class="layout layout-left-bottom">
+		<div class="panel">
+			<div class="title">标题</div>
+			<div class="chart" dg-chart-widget=""></div>
+		</div>
+	</div>
+	<div class="layout layout-center-top">
+		<div class="panel">
+			<div class="title main">标题</div>
+			<div class="chart" dg-chart-widget=""></div>
+		</div>
+	</div>
+	<div class="layout layout-center-bottom">
+		<div class="panel">
+			<div class="title main">标题</div>
+			<div class="chart" dg-chart-widget=""></div>
+		</div>
+	</div>
+	<div class="layout layout-right-top">
+		<div class="panel">
+			<div class="title">标题</div>
+			<div class="chart" dg-chart-widget=""></div>
+		</div>
+	</div>
+	<div class="layout layout-right-center">
+		<div class="panel">
+			<div class="title">标题</div>
+			<div class="chart" dg-chart-widget=""></div>
+		</div>
+	</div>
+	<div class="layout layout-right-bottom">
+		<div class="panel">
+			<div class="title">标题</div>
+			<div class="chart" dg-chart-widget=""></div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

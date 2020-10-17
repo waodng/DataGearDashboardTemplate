@@ -54,3 +54,7 @@ template-004
 template-005
 
 ![screenshot/template-005.png](screenshot/template-005.png)
+
+template-006
+
+![screenshot/template-006.png](screenshot/template-006.png)

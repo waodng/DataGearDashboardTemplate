@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+body{
+	color: #FFF;
+    background: #072e7d;
+    margin: 0 0;
+    padding: 0 0;
+}
+.fill-parent{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.head{
+    height: 3rem;
+    background-size: 100% 100%;
+}
+.head .title{
+	font-size: 1.8rem;
+	text-align: center;
+	padding-top: 0.2em;
+}
+.content{
+	position: absolute;
+	top: 3.2rem;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.layout{
+	position: absolute;
+}
+.layout-left-top{
+	left: 0;
+	top: 0;
+	height: 33.33%;
+	width: 25%;
+}
+.layout-left-center{
+	left: 0;
+	top: 33.33%;
+	height: 33.33%;
+	width: 25%;
+}
+.layout-left-bottom{
+	left: 0;
+	top: 66.66%;
+	height: 33.33%;
+	width: 25%;
+}
+.layout-center-top{
+	top: 0;
+	left: 25%;
+	right: 25%;
+	height: 50%;
+}
+.layout-center-bottom{
+	top: 50%;
+	left: 25%;
+	right: 25%;
+	bottom: 0;
+}
+.layout-right-top{
+	top: 0;
+	right: 0;
+	height: 33.3%;
+	width: 25%;
+}
+.layout-right-center{
+	top: 33.3%;
+	right: 0;
+	height: 33.3%;
+	width: 25%;
+}
+.layout-right-bottom{
+	top: 66.6%;
+	right: 0;
+	bottom: 0;
+	width: 25%;
+}
+.panel{
+	position: absolute;
+	left: 0.4rem;
+	top: 0.4rem;
+	right: 0.4rem;
+	bottom: 0.4em;
+	border-radius: 10px;
+    border: 1px #0174f5 solid;
+    box-shadow: 0px 0px 6px #0174f5;
+    box-sizing: border-box;
+}
+.panel > .title{
+	position: absolute;
+	top: 0rem;
+	right: 20%;
+	left: 20%;
+	line-height: 1.8rem;
+	font-size: 1rem;
+    text-align: center;
+    color: #fff;
+}
+.panel > .title.main{
+    background: url(images/title.png);
+    background-size: 100% 100%;
+}
+.panel .chart{
+	position: absolute;
+	top: 1.9rem;
+	right: 0.3rem;
+	bottom: 0.3rem;
+	left: 0.3rem;
+}
