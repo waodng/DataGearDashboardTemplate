@@ -35,13 +35,9 @@ template-001
 
 ![screenshot/template-001.png](screenshot/template-001.png)
 
-![screenshot/template-001-dg.png](screenshot/template-001-dg.png)
-
 template-002
 
 ![screenshot/template-002.png](screenshot/template-002.png)
-
-![screenshot/template-002-dg.png](screenshot/template-002-dg.png)
 
 template-003
 
@@ -58,3 +54,7 @@ template-005
 template-006
 
 ![screenshot/template-006.png](screenshot/template-006.png)
+
+template-007
+
+![screenshot/template-007.png](screenshot/template-007.png)
