@@ -58,3 +58,7 @@ template-006
 template-007
 
 ![screenshot/template-007.png](screenshot/template-007.png)
+
+template-008
+
+![screenshot/template-008.png](screenshot/template-008.png)
