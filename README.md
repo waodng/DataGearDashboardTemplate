@@ -62,3 +62,21 @@ template-007
 template-008
 
 ![screenshot/template-008.png](screenshot/template-008.png)
+
+# 看板效果图
+
+template-002
+
+![screenshot/template-002-dg.png](screenshot/template-002-dg.png)
+
+template-005
+
+![screenshot/template-005-dg.png](screenshot/template-005-dg.png)
+
+template-006
+
+![screenshot/template-006-dg.png](screenshot/template-006-dg.png)
+
+template-008
+
+![screenshot/template-008-dg.png](screenshot/template-008-dg.png)
