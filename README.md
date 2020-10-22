@@ -10,7 +10,7 @@
 
 2. 将目录内的所有文件打包成`ZIP`压缩包（注意：所有文件都应直接在压缩包根目录内，不要多嵌套一层）
 
-3. 在[DataGear](http://www.datagear.tech)程序的看板管理页面，点击【导入】按钮，导入上述压缩包
+3. 在[DataGear](http://www.datagear.tech)程序的看板管理页面，点击【添加】按钮右侧下拉菜单的【导入】按钮，导入上述压缩包
 
 4. 编辑导入的看板模板，为HTML中`div`元素的`dg-chart-widget`属性设置图表ID
 
