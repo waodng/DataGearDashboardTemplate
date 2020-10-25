@@ -75,6 +75,10 @@ template-011
 
 ![screenshot/template-011.png](screenshot/template-011.png)
 
+template-012
+
+![screenshot/template-012.png](screenshot/template-012.png)
+
 # 看板效果图
 
 template-002
